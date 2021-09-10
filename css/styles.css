@@ -2,17 +2,29 @@ body {
     display: flex;
     flex-direction: column;
 }
+.active_page {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
 }
+
 article {
     flex: 2;
     overflow-y: auto;
 }
+
+.small {width: 250px; height: 100px;}
+
 aside {
     flex: 1;
     overflow-y: auto;
 }
-.small {width: 250px; height: 100px;}

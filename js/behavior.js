@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function(event) {
-   alert('Hello'); 
+   //alert('Hello'); 
 
    var thumbnailElement = document.getElementById("smart_thumbnail");
    	   thumbnailElement.className;
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		thumbnailElement.className = "";
 	}
 
-	alert("I saw you click!");
+	//alert("I saw you click!");
 
    });
 
